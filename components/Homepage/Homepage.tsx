@@ -5,6 +5,9 @@ import Vision from "./Vision/Vision"
 import Sponsor from "./Sponsor/Sponsor"
 import Event from "./Event/Event"
 import News from "./News/News"
+import Testimony from "./Testimony/Testimony"
+import Donate from "./Donate/Donate"
+import Footer from "./Footer/Footer"
 
 const Homepage: FC<any> = () => {
     return (
@@ -15,6 +18,9 @@ const Homepage: FC<any> = () => {
             <Sponsor />
             <Event />
             <News />
+            <Testimony />
+            <Donate />
+            <Footer />
         </div>
     )
 }
