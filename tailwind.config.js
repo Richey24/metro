@@ -15,7 +15,7 @@ module.exports = {
         'nav': '#0D47A1',
         'donate': "#DE4277",
         'brighter': "#46C5E7",
-        'mission': "#00000099",
+        'mission': "#4B5563",
         'pillar': "#FAFAFA",
         'puprle': "#8E24AA",
         'green': "#2E7D32",

@@ -11,7 +11,7 @@ import Footer from "./Footer/Footer"
 
 const Homepage: FC<any> = () => {
     return (
-        <div>
+        <div className="w-full">
             <Header />
             <Pillar />
             <Vision />
