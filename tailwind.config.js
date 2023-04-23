@@ -21,7 +21,8 @@ module.exports = {
         'green': "#2E7D32",
         'event': "#F2ECF8",
         'footer': "#FAFAFA",
-        'email-border': "#E3E8F0"
+        'email-border': "#E3E8F0",
+        'testimony': "#707070",
       },
       boxShadow: {
         '3xl': "1px 1px 3px #00000029"
