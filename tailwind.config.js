@@ -23,6 +23,7 @@ module.exports = {
         'footer': "#FAFAFA",
         'email-border': "#E3E8F0",
         'testimony': "#707070",
+        'volunteer': "#4580DC",
       },
       boxShadow: {
         '3xl': "1px 1px 3px #00000029"
