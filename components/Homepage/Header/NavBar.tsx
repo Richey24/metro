@@ -14,7 +14,7 @@ const NavBar: FC<any> = () => {
             <div className='hidden items-center gap-6 [&>p]: text-sm font-semibold text-nav font-oswald cursor-pointer md:flex'>
                 <p><Link href="/">Home</Link></p>
                 <p><Link href="/program">Programs</Link></p>
-                <p>Our Work</p>
+                <p><Link href="/work">Our Work</Link></p>
                 <p>About</p>
                 <p>Event</p>
                 <p>Blog</p>
