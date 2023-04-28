@@ -6,12 +6,12 @@ import secondBrand from "../../../images/beauty.png"
 
 const Job: FC<any> = () => {
     return (
-        <div className="flex items-center bg-pillar pt-12 gap-[40px]">
-            <div className="w-[50%]">
-                <div className="w-[70%] h-[550px] relative bg-white ml-[150px]">
+        <div className="flex flex-wrap md:flex-nowrap items-center bg-pillar pt-12 gap-[40px]">
+            <div className="md:w-[50%]">
+                <div className="md:w-[70%] w-[90%] h-[550px] relative bg-white mx-auto md:ml-[150px]">
                     <Image className="w-[100%] h-[350px]" src={knight} alt="warrior" />
                     <div className="flex flex-col justify-center items-center mt-8">
-                        <h1 className="text-[32px] md:text-[25px] font-bold leading-tight text-nav font-oswald pb-[10px]">Partnering Organizations</h1>
+                        <h1 className="text-[24px] md:text-[25px] font-bold leading-tight text-nav font-oswald pb-[10px]">Partnering Organizations</h1>
                         <div className="hidden md:block w-[40px] h-[1.5px] bg-nav"></div>
                     </div>
                     <div className="flex justify-center gap-6 mt-5">
@@ -21,19 +21,19 @@ const Job: FC<any> = () => {
                 </div>
                 <div className="w-full h-[350px] bg-nav mt-[-300px]"></div>
             </div>
-            <div className="w-[50%]">
+            <div className="md:w-[50%] px-4 md:px-0">
                 <h3 className="text-[22px] md:text-[30px] font-bold text-nav font-oswald md:border-b-2 border-b-nav mb-2 md:mb-2 w-12 whitespace-nowrap">Job Training & Internship Initiative</h3>
-                <div className="flex gap-24 m-10">
+                <div className="flex md:gap-24 justify-between md:justify-normal my-10 md:m-10">
                     <div className="text-center">
-                        <h2 className="text-[50px] font-bold text-nav">42</h2>
+                        <h2 className="md:text-[50px] text-[24px] font-bold text-nav">42</h2>
                         <p className="text-[20px] font-bold text-nav">Individual</p>
                     </div>
                     <div className="text-center">
-                        <h2 className="text-[50px] font-bold text-nav">10</h2>
+                        <h2 className="md:text-[50px] text-[24px] font-bold text-nav">10</h2>
                         <p className="text-[20px] font-bold text-nav">Volunteer</p>
                     </div>
                     <div className="text-center">
-                        <h2 className="text-[50px] font-bold text-nav">80</h2>
+                        <h2 className="md:text-[50px] text-[24px] font-bold text-nav">80</h2>
                         <p className="text-[20px] font-bold text-nav">Hours</p>
                     </div>
                 </div>
