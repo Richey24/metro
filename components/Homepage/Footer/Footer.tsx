@@ -3,6 +3,7 @@ import phone from "../../../images/phone.png"
 import mail from "../../../images/mail.png"
 import location from "../../../images/pick-loc.png"
 import Image from "next/image"
+import Link from "next/link"
 
 const Footer: FC<any> = () => {
     return (
@@ -25,8 +26,8 @@ const Footer: FC<any> = () => {
                 </div>
                 <div className="w-[70%] md:w-[15%]">
                     <h4 className="font-bold text=[20px] mb-[18px] text-nav">Overview</h4>
-                    <p className="text-mission mb-[18px] cursor-pointer font-bold">Our Work</p>
-                    <p className="text-mission mb-[18px] cursor-pointer font-bold">About Us</p>
+                    <p className="text-mission mb-[18px] cursor-pointer font-bold"><Link href="/work">Our Work</Link></p>
+                    <p className="text-mission mb-[18px] cursor-pointer font-bold"><Link href="/about">About Us</Link></p>
                     <p className="text-mission mb-[18px] cursor-pointer font-bold">Testimonials</p>
                     <p className="text-mission mb-[18px] cursor-pointer font-bold">Blog</p>
                     <p className="text-mission mb-[18px] cursor-pointer font-bold">Events</p>

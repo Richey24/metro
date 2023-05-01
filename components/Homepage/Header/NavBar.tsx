@@ -15,7 +15,7 @@ const NavBar: FC<any> = () => {
                 <p><Link href="/">Home</Link></p>
                 <p><Link href="/program">Programs</Link></p>
                 <p><Link href="/work">Our Work</Link></p>
-                <p>About</p>
+                <p><Link href="/about">About</Link></p>
                 <p>Event</p>
                 <p>Blog</p>
                 <p>Contact</p>
