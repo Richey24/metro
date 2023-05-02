@@ -30,7 +30,7 @@ const Footer: FC<any> = () => {
                     <p className="text-mission mb-[18px] cursor-pointer font-bold"><Link href="/about">About Us</Link></p>
                     <p className="text-mission mb-[18px] cursor-pointer font-bold">Testimonials</p>
                     <p className="text-mission mb-[18px] cursor-pointer font-bold">Blog</p>
-                    <p className="text-mission mb-[18px] cursor-pointer font-bold">Events</p>
+                    <p className="text-mission mb-[18px] cursor-pointer font-bold"><Link href="/event">Events</Link></p>
                 </div>
                 <div className="w-[70%] md:w-[15%]">
                     <h4 className="font-bold text=[20px] mb-[18px] text-nav">Programs</h4>

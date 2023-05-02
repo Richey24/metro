@@ -24,6 +24,7 @@ module.exports = {
         'email-border': "#E3E8F0",
         'testimony': "#707070",
         'volunteer': "#4580DC",
+        'past': "#EBF0FD",
       },
       boxShadow: {
         '3xl': "1px 1px 3px #00000029"
