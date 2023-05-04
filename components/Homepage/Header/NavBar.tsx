@@ -17,7 +17,7 @@ const NavBar: FC<any> = () => {
                 <p><Link href="/work">Our Work</Link></p>
                 <p><Link href="/about">About</Link></p>
                 <p><Link href="/event">Event</Link></p>
-                <p>Blog</p>
+                <p><Link href="/blog">Blog</Link></p>
                 <p><Link href="/contact">Contact</Link></p>
                 <button className="bg-donate w-32 h-12 ml-10 text-sm font-semibold text-white font-oswald rounded">Donate</button>
             </div>
