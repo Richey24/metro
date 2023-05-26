@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { FC } from "react"
 import jewelry from "../../../images/jewelry.jpg"
+import Link from "next/link"
 
 const Main: FC<any> = () => {
     return (
@@ -10,7 +11,7 @@ const Main: FC<any> = () => {
                 <h1 className="md:w-[470px] text-[32px] md:text-[45px] font-bold leading-tight text-nav font-oswald">Empowering Youth for a <span className="text-brighter">Brighter Future</span></h1>
                 <p className="text-[14px] font-oswald text-mission mt-4 md:mt-2">Our Mission is to create a partnership with youth, families, youth service providers and community stakeholders for the advancement and well-being of our youth as productive and contributing citizens of the community.</p>
                 <div className="w-[70%] md:w-full flex flex-wrap gap-2 md:gap-4 mt-6 md:mt-4">
-                    <button className="bg-nav w-32 md:w-[192px] h-12 text-sm font-semibold text-white font-oswald rounded">Our Programs</button>
+                    <Link href="/program"> <button className="bg-nav w-32 md:w-[192px] h-12 text-sm font-semibold text-white font-oswald rounded">Our Programs</button></Link>
                     <button className="bg-donate w-32 h-12 text-sm font-semibold text-white font-oswald rounded">Donate</button>
                 </div>
             </div>

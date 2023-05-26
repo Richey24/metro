@@ -3,7 +3,7 @@ import dog from "../../../images/dog.jpg"
 
 const Community = () => {
     return (
-        <div>
+        <div id="health">
             <div className="px-4 md:px-32 py-8 md:py-[80px] flex flex-wrap md:flex-nowrap gap-y-4 gap-x-[100px] items-start bg-white shadow-3xl">
                 <Image className="w-[500px] h-[400px]" src={dog} alt="dog" />
                 <div>

@@ -4,7 +4,7 @@ import shield from "../../../images/shield.png"
 
 const Violence = () => {
     return (
-        <div className="w-full h-full md:h-[420px] bg-nav px-16 md:pl-[150px] py-8 md:py-4 pr-24">
+        <div id="violence" className="w-full h-full md:h-[420px] bg-nav px-16 md:pl-[150px] py-8 md:py-4 pr-24">
             <div className="flex">
                 <div className="pt-8 md:pt-[30px]">
                     <div className="flex items-center gap-3 ml-[-40px]">

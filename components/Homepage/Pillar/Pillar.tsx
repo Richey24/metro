@@ -3,6 +3,7 @@ import sun from "../../../images/sun.jpg"
 import dog from "../../../images/dog.jpg"
 import money from "../../../images/money.jpg"
 import Image from "next/image"
+import Link from "next/link"
 
 const Pillar: FC<any> = () => {
   return (
@@ -19,7 +20,7 @@ const Pillar: FC<any> = () => {
             <h1 className="text-[18px] font-bold leading-tight text-nav font-oswald pb-[10px]">Opiod response</h1>
             <p className="text-[13px] font-oswald text-mission">Opioid response is a key consideration in diversion center programs, as many participants may have substance use disorders</p>
             <div className="flex flex-col justify-center items-center gap-2 mt-[16px]">
-              <button className="bg-nav w-48 h-12 text-sm font-semibold text-white font-oswald rounded">Learn More</button>
+              <Link href={{ pathname: "program", query: { section: "opiod" } }}><button className="bg-nav w-48 h-12 text-sm font-semibold text-white font-oswald rounded">Learn More</button></Link>
               <div className="w-[70px] hidden md:block h-[2px] bg-nav"></div>
             </div>
           </div>
@@ -30,7 +31,7 @@ const Pillar: FC<any> = () => {
             <h1 className="text-[18px] font-bold leading-tight text-nav font-oswald pb-[10px]">Violence Intervention</h1>
             <p className="text-[13px] font-oswald text-mission">Opioid response is a key consideration in diversion center programs, as many participants may have substance use disorders</p>
             <div className="flex flex-col justify-center items-center gap-2 mt-[16px]">
-              <button className="bg-puprle w-48 h-12 text-sm font-semibold text-white font-oswald rounded">Learn More</button>
+              <Link href={{ pathname: "program", query: { section: "violence" } }}><button className="bg-puprle w-48 h-12 text-sm font-semibold text-white font-oswald rounded">Learn More</button></Link>
               <div className="w-[70px] hidden md:block h-[2px] bg-puprle"></div>
             </div>
           </div>
@@ -41,7 +42,7 @@ const Pillar: FC<any> = () => {
             <h1 className="text-[18px] font-bold leading-tight text-nav font-oswald pb-[10px]">Community Health</h1>
             <p className="text-[13px] font-oswald text-mission">Opioid response is a key consideration in diversion center programs, as many participants may have substance use disorders</p>
             <div className="flex flex-col justify-center items-center gap-2 mt-[16px]">
-              <button className="bg-green w-48 h-12 text-sm font-semibold text-white font-oswald rounded">Learn More</button>
+              <Link href={{ pathname: "program", query: { section: "health" } }}><button className="bg-green w-48 h-12 text-sm font-semibold text-white font-oswald rounded">Learn More</button></Link>
               <div className="w-[70px] hidden md:block h-[2px] bg-green"></div>
             </div>
           </div>

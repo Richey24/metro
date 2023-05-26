@@ -1,5 +1,5 @@
 import Image from "next/image"
-import logo from "../../../images/logo_blue.svg"
+import logo from "../../../images/logo.png"
 import down from "../../../images/Icon.svg"
 import { FC } from "react"
 import Link from "next/link"
@@ -13,9 +13,9 @@ const NavBar: FC<any> = () => {
             </div>
             <div className='hidden items-center gap-6 [&>p]: text-sm font-semibold text-nav font-oswald cursor-pointer md:flex'>
                 <p><Link href="/">Home</Link></p>
-                <p><Link href="/program">Programs</Link></p>
-                <p><Link href="/work">Our Work</Link></p>
                 <p><Link href="/about">About</Link></p>
+                <p><Link href="/work">Our Work</Link></p>
+                <p><Link href="/program">Programs</Link></p>
                 <p><Link href="/event">Event</Link></p>
                 <p><Link href="/blog">Blog</Link></p>
                 <p><Link href="/contact">Contact</Link></p>

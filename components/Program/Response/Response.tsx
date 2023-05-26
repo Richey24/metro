@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const Response: FC<any> = () => {
     return (
-        <div className="px-4 md:px-32 py-8 md:py-[80px] flex flex-wrap md:flex-nowrap gap-y-4 gap-x-[100px] items-start bg-white">
+        <div id="opiod" className="px-4 md:px-32 py-8 md:py-[80px] flex flex-wrap md:flex-nowrap gap-y-4 gap-x-[100px] items-start bg-white">
             <Image className="w-[500px] h-[400px]" src={dog} alt="dog" />
             <div>
                 <div className="flex items-end md:items-center gap-3 md:ml-[-47px]">

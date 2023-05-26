@@ -2,6 +2,7 @@ import { FC } from "react"
 import goat from "../../../images/goat.jpg"
 import dragon from "../../../images/dragon.png"
 import Image from "next/image"
+import Link from "next/link"
 
 const News: FC<any> = () => {
     return (
@@ -17,7 +18,7 @@ const News: FC<any> = () => {
                         <h1 className="text-[22px] font-bold mb-[5px] text-nav mt-5 font-oswald">Providing Safe Haven for At-Risk Teens</h1>
                         <p className="text-nav font-bold">written by Randa</p>
                         <p className="text-[12px] font-oswald text-mission">published on May 29, 2022</p>
-                        <button className="bg-nav w-[100%] mt-4 h-8 md:h-12 text-sm font-semibold text-white font-oswald rounded">Read More</button>
+                        <Link href="/blog"><button className="bg-nav w-[100%] mt-4 h-8 md:h-12 text-sm font-semibold text-white font-oswald rounded">Read More</button></Link>
                     </div>
                 </div>
                 <div className="h-[200px] md:h-[220px] w-[100%] bg-white flex gap-6 px-4 md:px-0 md:pr-8">
@@ -26,7 +27,7 @@ const News: FC<any> = () => {
                         <h1 className="text-[22px] font-bold mb-[5px] text-nav mt-5 font-oswald">The Power of Play: Empowering Young People</h1>
                         <p className="text-nav font-bold">written by Labib</p>
                         <p className="text-[12px] font-oswald text-mission">published on April 3, 2022</p>
-                        <button className="bg-nav w-[100%] mt-4 h-8 md:h-12 text-sm font-semibold text-white font-oswald rounded">Read More</button>
+                        <Link href="/blog"><button className="bg-nav w-[100%] mt-4 h-8 md:h-12 text-sm font-semibold text-white font-oswald rounded">Read More</button></Link>
                     </div>
                 </div>
             </div>
@@ -37,7 +38,7 @@ const News: FC<any> = () => {
                         <h1 className="text-[22px] font-bold mb-[5px] text-nav mt-5 font-oswald">Inspiring Programs at Diversions Youth Center</h1>
                         <p className="text-nav font-bold">written by Aida</p>
                         <p className="text-[12px] font-oswald text-mission">published on May 29, 2022</p>
-                        <button className="bg-nav w-[100%] mt-4 h-8 md:h-12 text-sm font-semibold text-white font-oswald rounded">Read More</button>
+                        <Link href="/blog"><button className="bg-nav w-[100%] mt-4 h-8 md:h-12 text-sm font-semibold text-white font-oswald rounded">Read More</button></Link>
                     </div>
                 </div>
                 <div className="h-[200px] md:h-[220px] w-[100%] bg-white flex gap-6 px-4 md:px-0 md:pr-8">
@@ -46,7 +47,7 @@ const News: FC<any> = () => {
                         <h1 className="text-[22px] font-bold mb-[5px] text-nav mt-5 font-oswald">Diversions Youth Centers Impact on Local Teens</h1>
                         <p className="text-nav font-bold">written by Mohammed Bakar</p>
                         <p className="text-[12px] font-oswald text-mission">published on May 29, 2022</p>
-                        <button className="bg-nav w-[100%] mt-4 h-8 md:h-12 text-sm font-semibold text-white font-oswald rounded">Read More</button>
+                        <Link href="/blog"><button className="bg-nav w-[100%] mt-4 h-8 md:h-12 text-sm font-semibold text-white font-oswald rounded">Read More</button></Link>
                     </div>
                 </div>
             </div>

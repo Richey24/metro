@@ -5,6 +5,7 @@ import cow from "../../../images/cow.jpg"
 import calender from "../../../images/calender.png"
 import location from "../../../images/location.png"
 import Image from "next/image"
+import Link from "next/link"
 
 const Event: FC<any> = () => {
     return (
@@ -21,7 +22,7 @@ const Event: FC<any> = () => {
                         <h1 className="text-[24px] font-bold mb-[5px] text-nav font-oswald">Life Skills Workshop</h1>
                         <p className="text-nav text-[14px] flex gap-2 font-bold items-center"><Image className="w-4 h-4 mb-1" src={location} alt="calender" /> MYDC, Suite 105</p>
                         <p className="text-[14px] md:text-[12px] mt-[10px] font-oswald text-mission">Join our interactive life skills workshop to develop essential tools for effective communication, decision-making, time management, and stress reduction.</p>
-                        <button className="bg-donate w-full mt-4 h-12 text-sm font-semibold text-white font-oswald rounded">Register</button>
+                        <Link href="/event"><button className="bg-donate w-full mt-4 h-12 text-sm font-semibold text-white font-oswald rounded">Register</button></Link>
                     </div>
                 </div>
                 <div className="md:w-[33%] h-[520px] md:h-[470px] bg-white">
@@ -31,7 +32,7 @@ const Event: FC<any> = () => {
                         <h1 className="text-[24px] font-bold mb-[5px] text-nav font-oswald">Basketball Youth</h1>
                         <p className="text-nav text-[14px] flex gap-2 font-bold items-center"><Image className="w-4 h-4 mb-1" src={location} alt="calender" /> Community Hub Gym</p>
                         <p className="text-[14px] md:text-[12px] mt-[10px] font-oswald text-mission">Join our interactive life skills workshop to develop essential tools for effective communication, decision-making, time management, and stress reduction.</p>
-                        <button className="bg-donate w-full mt-4 h-12 text-sm font-semibold text-white font-oswald rounded">Register</button>
+                        <Link href="/event"><button className="bg-donate w-full mt-4 h-12 text-sm font-semibold text-white font-oswald rounded">Register</button></Link>
                     </div>
                 </div>
                 <div className="md:w-[33%] h-[520px] md:h-[470px] bg-white">
@@ -41,12 +42,12 @@ const Event: FC<any> = () => {
                         <h1 className="text-[24px] font-bold mb-[5px] text-nav font-oswald">Talk: Imam Ahmad</h1>
                         <p className="text-nav text-[14px] flex gap-2 font-bold items-center"><Image className="w-4 h-4 mb-1" src={location} alt="calender" /> MYDC, Suite 105</p>
                         <p className="text-[14px] md:text-[12px] mt-[10px] font-oswald text-mission">Join our interactive life skills workshop to develop essential tools for effective communication, decision-making, time management, and stress reduction.</p>
-                        <button className="bg-donate w-full mt-4 h-12 text-sm font-semibold text-white font-oswald rounded">Register</button>
+                        <Link href="/event"><button className="bg-donate w-full mt-4 h-12 text-sm font-semibold text-white font-oswald rounded">Register</button></Link>
                     </div>
                 </div>
             </div>
             <div className="flex justify-center">
-                <button className="bg-nav w-[250px] mt-12 h-12 text-sm font-semibold text-white font-oswald rounded">View events calendar</button>
+                <Link href="event"><button className="bg-nav w-[250px] mt-12 h-12 text-sm font-semibold text-white font-oswald rounded">View events calendar</button></Link>
             </div>
         </div>
     )
